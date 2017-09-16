@@ -19,5 +19,7 @@ each_plus  0.540000   0.000000   0.540000 (  0.545459)
 ```
 
 
-The takeaway?  inject is good, but if you can use sum now in your older code, you'll
-get a huge improvement when you get to ruby 2.4.1
+The takeaway?  `inject` is good, but if you use `sum` now (in Rails apps), 
+when you upgrade to ruby 2.4.x.,  get a huge improvement when you get to ruby 2.4.1
+which you don't get with `reduce` or `inject`.
+
